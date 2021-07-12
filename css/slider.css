@@ -1,0 +1,132 @@
+/* Слайдер */
+.slick-slider {
+  position: relative;
+  max-width: 100%;
+  margin-top: 102px;
+  min-width: 0;
+}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+  max-width: 0;
+}
+
+/* Слайд */
+.slick-slide {
+  max-width: 370px;
+  margin-left: 15px;
+  margin-right: 15px;
+  outline: none;
+}
+.slick-slide img {
+  max-width: 455px;
+}
+
+.slick-slide p {
+  margin-top: 38px;
+  text-align: center;
+  color: #8993ad;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+
+/* Стрелка */
+.slick-arrow {
+}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+  position: absolute;
+  top: 119px;
+  left: -30px;
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/arrow.png);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  outline: none;
+  font-size: 0;
+  z-index: 1;
+}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+  position: absolute;
+  top: 119px;
+  right: -30px;
+  width: 60px;
+  height: 60px;
+  background-image: url(../img/arrow.png);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 100%;
+  transform: rotate(180deg);
+  cursor: pointer;
+  outline: none;
+  font-size: 0;
+}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+
+/* Точки (булиты) */
+.slick-dots {
+  margin: 0 auto;
+  margin: 102px auto 0 auto;
+}
+.slick-dots li {
+  display: inline-block;
+}
+/* Активная точка */
+.slick-dots li.slick-active button {
+  background-color: #ff4e2e;
+  outline: none;
+}
+/* Элемент точки */
+.slick-dots li button {
+  background-color: transparent;
+  border: none;
+  background: #ebebeb;
+  height: 18px;
+  width: 18px;
+  margin: 0 15px;
+  list-style: none;
+  cursor: pointer;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 0;
+}
