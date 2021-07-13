@@ -19,7 +19,7 @@ $(document).ready(function() {
   let A = document.querySelector('.scroll__link1');
   let B = document.querySelector('.scroll__link2');
   let C = document.querySelector('.scroll__link3');
-  let AA = document.querySelector('.advantages_text');
+  let AA = document.querySelector('.advantages_bg');
   let BB = document.querySelector('.example-work_bg');
   let CC = document.querySelector('.job_price');
   
